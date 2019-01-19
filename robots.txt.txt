@@ -1,0 +1,2 @@
+User-Agent: *
+Disallow: /https://mohansiva910.github.io/
