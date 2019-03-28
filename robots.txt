@@ -1,2 +1,5 @@
-User-Agent: *
-Disallow: /https://mohansiva910.github.io/
+User-agent: *
+Disallow:
+Allow:
+
+Sitemap: https://mohanseo.github.io/sitemap.xml
