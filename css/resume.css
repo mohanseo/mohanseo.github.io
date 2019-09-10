@@ -190,3 +190,23 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+.available-wrap .available-pointer {
+    background: #c8a482 none repeat scroll 0 0;
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+    margin-right: 32px;
+    margin-top: 7px;
+    border-radius: 50%;
+    float: left;
+    -webkit-animation-name: flash;
+    animation-name: flash;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    content: ' ';
+}
