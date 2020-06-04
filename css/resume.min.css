@@ -17,16 +17,4 @@
 			float:left;
 			animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 			content: ' ';
-			&:before{
-				background-color: #c8a482;
-				content: ' ';
-				position: absolute;
-				top: -8px;
-				left: -8px;
-				display: inline-block;
-				width: 30px;
-				height: 30px;
-				opacity: 0.2;
-				border-radius: 50%;
 			}
-		}
