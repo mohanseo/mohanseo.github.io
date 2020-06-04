@@ -15,7 +15,10 @@
 			margin-top: 7px;
 			border-radius: 50%;
 			float:left;
-			-webkit-animation: 1s blink ease infinite;
-			animation: 1s blink ease infinite;
+			animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 			content: ' ';
+			}
+			@keyframes blinker {  
+			  from { opacity: 1; }
+			  to { opacity: 0; }
 			}
