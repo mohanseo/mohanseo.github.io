@@ -15,6 +15,7 @@
 			margin-top: 7px;
 			border-radius: 50%;
 			float:left;
-			animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+			-webkit-animation: 1s blink ease infinite;
+			animation: 1s blink ease infinite;
 			content: ' ';
 			}
